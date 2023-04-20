@@ -9,7 +9,7 @@ export class Negociacoes {
         this.negociacoes.push(negociacao);
     }
 
-// ReadonlyArray<Negociacao> mesma coisa que 
+// ReadonlyArray<Negociacao> mesma coisa que readonly Negociacao []
 
     lista(): readonly Negociacao [] {
         return this.negociacoes;
